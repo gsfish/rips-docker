@@ -1,4 +1,5 @@
 FROM php:7.2-apache
+MAINTAINER gsfish <root@grassfish.net>
 
 ENV APACHE_DOCUMENT_ROOT /rips
 ENV RIPS_TARGET /target
@@ -19,3 +20,5 @@ RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-av
     && rm -rf /tmp/*
 
 WORKDIR ${APACHE_DOCUMENT_ROOT}
+
+EXPOSE 80

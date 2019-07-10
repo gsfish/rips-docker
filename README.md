@@ -1,6 +1,6 @@
 # rips-docker
 
-Docker image for [Re-Inforce Programming Security (RIPS))](http://rips-scanner.sourceforge.net/).
+Docker image for [Re-Inforce Programming Security (RIPS)](http://rips-scanner.sourceforge.net/).
 
 ## Installation
 
