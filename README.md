@@ -20,7 +20,7 @@ docker build -t rips-docker .
 ## Usage
 
 ```
-docker run -d --rm -p 127.0.0.1:80:80 -v <PATH_TO_YOUR_TARGET>:/target rips-docker
+docker run -d --rm -p 127.0.0.1:8000:80 -v <PATH_TO_YOUR_TARGET>:/target gsfish/rips-docker
 ```
 
-visit `http://localhost` and scan for `/target`
+visit `http://localhost:8000` and start a scan for `/target`
